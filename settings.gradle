@@ -1,0 +1,7 @@
+include ':app', ':sitewhere-android-sdk', ':SiteWhereExample'
+
+project(':sitewhere-android-sdk').projectDir = new File('sitewhere-android-sdk/sitewhere-android-sdk') // <- points to the local repository
+project(':SiteWhereExample').projectDir = new File('sitewhere-android-sdk/SiteWhereExample') // <- points to the local repository
+
+
+
